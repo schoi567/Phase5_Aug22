@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="weTestNG.SimplilearnLogin">
+        <methods>
+          <include name="SetUp"/>
+          <include name="NegativeTest"/>
+          <include name="PositiveTest"/>
+          <include name="TesrDown"/>
+        </methods>
+      </class> <!-- weTestNG.SimplilearnLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

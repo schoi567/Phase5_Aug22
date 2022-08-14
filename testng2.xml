@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">  <!-- name -->
+  <test thread-count="5" name="Test">
+	<groups>
+  		<run>
+  			<include name = "sanity.*"/>  <!--You can always run this  // and you can use regular expression as well -->
+  		 	<include name = "regression"/>
+  		</run>   
+	</groups>
+  
+  
+    <classes>								<!--Junit testing dependent on unit cases, but Test ng has before and after and so on which is not part of test ng and test ng cases are part of libraries has POM files  -->
+        <class name="testNG.LoanTest"/>			<!--opening classes -> package name.class name  -->
+       <class name="testNG.AccountTest"/> 		<!--has all the classes that you want to run-->	
+    </classes>
+  </test> <!-- Test -->						<!--Run as testNg Suite-->	
+</suite> <!-- Suite -->
