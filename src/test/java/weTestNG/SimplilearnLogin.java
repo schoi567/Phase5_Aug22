@@ -46,7 +46,7 @@ public class SimplilearnLogin extends BaseClass{
 		
  
  	LoginPage login = new LoginPage(driver); 
-	login.LoginFunction("soominchoi56@gmail.com", "1122AABB!ab"); 
+	login.LoginFunction("soominchoi56@gmail.com", "123ASDFasdf!E!"); 
 	
 	
 		 

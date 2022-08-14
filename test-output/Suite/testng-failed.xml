@@ -7,7 +7,6 @@
         <methods>
           <include name="SetUp"/>
           <include name="NegativeTest"/>
-          <include name="PositiveTest"/>
           <include name="TesrDown"/>
         </methods>
       </class> <!-- weTestNG.SimplilearnLogin -->
