@@ -42,11 +42,9 @@ public class SimplilearnLogin extends BaseClass{
 	public void PositiveTest() {
 
 		
-		System.out.println("bd");  
-		
  
  	LoginPage login = new LoginPage(driver); 
-	login.LoginFunction("soominchoi56@gmail.com", "123ASDFasdf!E!"); 
+	login.LoginFunction("soominchoi56@gmail.com", "ABCd!$#234"); 
 	
 	
 		 
