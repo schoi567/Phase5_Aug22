@@ -23,7 +23,7 @@ public class SimplilearnLogin extends BaseClass{
 	public void NegativeTest() {
 		 
 	LoginPage login = new LoginPage(driver); 
-	login.LoginFunction("abc@gmail.com", "ABCd!$#234"); 
+	login.LoginFunction("abc@gmail.com", "ABCd!$#234sf"); 
 	
 	WebElement ErrorMsg = driver.findElement(By.id("msg_box"));  
 	String ActError = ErrorMsg.getText(); 
@@ -44,7 +44,7 @@ public class SimplilearnLogin extends BaseClass{
 		
  
  	LoginPage login = new LoginPage(driver); 
-	login.LoginFunction("soominchoi56@gmail.com", "ABCd!$#234"); 
+	login.LoginFunction("soominchoi56@gmail.com", "ABCdafwe!$#234"); 
 	
 	
 		 
