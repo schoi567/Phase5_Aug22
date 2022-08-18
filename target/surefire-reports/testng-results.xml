@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-18T11:13:22Z" name="Suite" finished-at="2022-08-18T11:13:30Z" duration-ms="8662">
+    <groups>
+    </groups>
+    <test started-at="2022-08-18T11:13:22Z" name="Test" finished-at="2022-08-18T11:13:30Z" duration-ms="8662">
+      <class name="weTestNG.SimplilearnLogin">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:weTestNG.SimplilearnLogin@65c7a252]" started-at="2022-08-18T11:13:24Z" name="SetUp" finished-at="2022-08-18T11:13:25Z" duration-ms="1131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="NegativeTest()[pri:0, instance:weTestNG.SimplilearnLogin@65c7a252]" started-at="2022-08-18T11:13:25Z" name="NegativeTest" finished-at="2022-08-18T11:13:27Z" duration-ms="2097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeTest -->
+        <test-method is-config="true" signature="TesrDown()[pri:0, instance:weTestNG.SimplilearnLogin@65c7a252]" started-at="2022-08-18T11:13:27Z" name="TesrDown" finished-at="2022-08-18T11:13:27Z" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TesrDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:weTestNG.SimplilearnLogin@65c7a252]" started-at="2022-08-18T11:13:27Z" name="SetUp" finished-at="2022-08-18T11:13:28Z" duration-ms="1081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="PositiveTest()[pri:0, instance:weTestNG.SimplilearnLogin@65c7a252]" started-at="2022-08-18T11:13:28Z" name="PositiveTest" finished-at="2022-08-18T11:13:30Z" duration-ms="2198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PositiveTest -->
+        <test-method is-config="true" signature="TesrDown()[pri:0, instance:weTestNG.SimplilearnLogin@65c7a252]" started-at="2022-08-18T11:13:30Z" name="TesrDown" finished-at="2022-08-18T11:13:30Z" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TesrDown -->
+      </class> <!-- weTestNG.SimplilearnLogin -->
+      <class name="weTestNG.HomePageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:weTestNG.HomePageTest@18df8434]" started-at="2022-08-18T11:13:22Z" name="SetUp" finished-at="2022-08-18T11:13:24Z" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="test1()[pri:0, instance:weTestNG.HomePageTest@18df8434]" started-at="2022-08-18T11:13:24Z" name="test1" finished-at="2022-08-18T11:13:24Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="TesrDown()[pri:0, instance:weTestNG.HomePageTest@18df8434]" started-at="2022-08-18T11:13:24Z" name="TesrDown" finished-at="2022-08-18T11:13:24Z" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TesrDown -->
+      </class> <!-- weTestNG.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
